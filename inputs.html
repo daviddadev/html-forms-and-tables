@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inputs Demo</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <p>Do you prefer cats or dogs?</p>
+
+<form action="">
+    <!-- The "name" attribute inside the label element groups the radio button selection. Allowing only one to be selected -->
+    <label for="dogs">Dogs: </label>
+    <input name="petChoice" type="radio" id="dogs" value="DOGS">
+
+    <!-- The "value" attribute sends the selected data -->
+    <!-- The URL will display the value. All CAPS for emphesis -->
+    <label for="cats">Cats: </label>
+    <input name="petChoice" type="radio" id="cats" value="CATS">
+
+    <!-- Select -->
+    <p>What's your current mood?</p>
+
+    <select name="mood" id="mood">
+        <option value="happy">:)</option>
+        <option value="natruel">:|</option>
+        <option value="sad">:(</option>
+    </select>
+
+    <br>
+    <br>
+
+    <textarea name="paragraph" id="" cols="25" rows="10"></textarea>
+    <br>
+    <!-- Any button or input type: sumbit will submit the for
+    respectively. -->
+    <br>
+    <button>Go!</button>
+</form>
+
+    <!-- <input type="checkbox"> -->
+
+</body>
+</html>
